@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="address" >
+        
+            <article>Home</article>
+            <article onclick="scrollToSection()" style="cursor: pointer;">List</article>
+            <article>Login</article>
+        
+        </div>
+        <div id="heading">
+        <h1>TASK NEST</h1></div>
+        <div id="disp">
+            <div id="about"><p>Welcome to my To-Do List application! This simple yet powerful tool is 
+                designed to help you stay organized and boost productivity. Built using <b>HTML, CSS</b>, and
+                 <b>JavaScript</b>, this app lets you easily add tasks, mark them as complete, and remove them when
+                  you're done.</p><br>
+                <ul>
+                    <li class="headlist">Key Features:</li>
+                    <ul id="lists">
+                        <li>Task Management: Quickly add new tasks, check off completed ones, and delete tasks you no longer need</li>
+                        <li>Light/Dark Mode: A theme toggle lets you switch between light and dark modes, giving you control over your app's appearance based on your preference.</li>
+                        <li>Responsive Design: The app is fully responsive, meaning it works beautifully across all devices, from desktops to smartphones.</li>
+                        <li>Persistent Data: Your tasks are stored in your browser's localStorage, so they remain even after you refresh or close the page.</li> 
+                    </ul>
+                    
+                </ul>
+                <button onclick="mode()">MODE</button>
+            </div> 
+            <div>   
+            
+                <img src="todolist image.webp" id="image1">
+                </div>
+            
+        </div>
+        <div id="actual">
+            <div id="app-head">TODOLIST :</div>
+            <input id="inputt"></input><button onclick="add()" id="add-button">ADD</button>
+            <div id="display"></div>
+
+        </div>
+        <div id="last-section">
+            <img src="robot-1470108_1280.png">
+            <section id="about-us">
+                <div class="column">
+                  <h2 id="typing">Our Vision</h2>
+                  <p>To empower individuals to stay organized, productive, and stress-free through a clean and interactive task manager.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="column">
+                  <h2>Our Mission</h2>
+                  <p>To provide a user-friendly and reliable to-do list app that adapts to your workflow and supports your daily routines.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="column">
+                  <h2>About the Creator</h2>
+                  <p>Crafted with love by a passionate developer who believes in making simple tools with beautiful designs to solve real problems.</p>
+                </div>
+              </section>
+                       <footer>&copy;
+             All Right Reserved 2025</footer>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
